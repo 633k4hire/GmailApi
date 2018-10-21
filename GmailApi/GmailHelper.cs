@@ -15,6 +15,7 @@ namespace GmailApi
 {
     class GmailHelper
     {
+
         public static string[] _Scopes = { GmailService.Scope.GmailSend };
         public static string _ApplicationName = "MyApp";
         public UserCredential _Credential;
